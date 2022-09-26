@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.flex{
+    display: flex;
+}
+.nav1{
+    width: 100%;
+    height: 35px;
+    background-color:var(--maincolor);
+  
+
+}
+.nav2{
+    width: 100%;
+    height: 55px;
+    background-color: var(--nav2bg);
+    position: fixed;
+   
+}
+.nav1 img{
+    vertical-align: middle;
+    cursor: pointer;
+}
+:root{
+    --nav2bg: whitesmoke;
+    --maincolor: orangered;
+}
+.nav1 ol, li, a{
+    margin-top: 4px; 
+    /* text-align: right; */
+    display: inline; 
+    line-height: 25px;
+    /* transition: color .2s; */
+    padding: 0 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav1 ol{
+    margin-left: 20%;
+}
+
+    
+.nav1 ol li:hover {
+        color: white;
+        text-decoration: underline;
+        font-size: large;
+        font-weight: bold;
+        
+    }
+
+/* .sticky {
+    
+    overflow: hidden;
+  }
+   */
+
+.nav2 ul, ul a{
+    color:dimgray;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    /* display: inline; */
+    display: flex;
+    align-items: center;
+    margin-top: 1px; 
+    padding: 0 4px;
+
+}
+.search {
+    /* padding: 16px 100px; */
+    /* margin-left: 30px; */
+    background-color: var(--nav2bg);
+    border:none ;
+    border-bottom: 1px solid;
+    padding-bottom: 6px;
+    
+
+  
+}
+
+button {
+    color:rgb(36, 33, 33);
+    float: right;
+    /* padding: 12px 13px; */
+    /* margin-left: 1px; */
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--nav2bg);   
+}
+
+.fa {
+    padding: 7px;
+    padding-bottom: 4px;
+    font-size: 55px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 28px;
+    margin: 1px;
+    transition: all .1s ease;
+  }
+  
+  .fa-facebook {
+    background: var(--maincolor);
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: var(--maincolor);
+    color: white;
+  }
+  .fa-instagram {
+    background:var(--maincolor);
+    color:white;
+  }
+  
+  .fa-linkedin {
+    background:var(--maincolor);
+    color: white;
+  }
+  .fa:hover{
+     transform: translateX(-5px);
+    
+ }
